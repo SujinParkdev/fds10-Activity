@@ -5,7 +5,7 @@
    1. 오타 확인
    2. 오류메시지를 복사해서 구글링 (보통 stack of flow에 해답이 많음)
 
-2. GitHub 사용 시 유의사항 
+2. GitHub 사용 시 유의사항
 
    * 업로드한 코드를 github 계정에서 되도록 수정하지 않기
 
@@ -35,6 +35,8 @@
 
       ```
       # path: Documents/dev/fds10-cowoking
+
+      $ git remote
       ```
 
       ​
