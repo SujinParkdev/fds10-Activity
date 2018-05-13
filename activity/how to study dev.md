@@ -1,9 +1,3 @@
----
-layout: post
-title: 개발용어 공부하는 법
-permalink: posts/devstudy
-tag: frontend dev 
----
 저와 같이 이제 막 개발공부를 시작했다면, 어려운 점 중 하나가 개발용어를 이해하는 부분 일 것 입니다. node.js, npm, routing, Framework, library 등등...
 
 저도 아직 현업에서 개발자로 일해 본 경험이 없기때문에 와 닿지 않은 개념이 많이 있습니다. 하지만 최소한 감이라도 잡을 수 있게 현업개발자에게 배운 개발용어 공부하는 법을 공유하려고 합니다.
@@ -26,7 +20,7 @@ tag: frontend dev
 
      code를 call하는 주체에 따라 Framwork와 library로 구분된다고 하네요.
 
-   ![frameworkVSlibrary](../_img/frameworkVSlibrary.png)
+   ![frameworkVSlibrary](../img/frameworkVSlibrary.png)
 
 2. 개발용어 번역하기
 
@@ -38,7 +32,7 @@ tag: frontend dev
 
      정확히는 모르겠지만 query는 무언가 궁금한 것 혹은 의문이 있는 것을 요청한다고 볼 수 있겠네요. 
 
-     ![query](../_img/query.png)
+     ![query](../img/query.png)
 
 3. Google 검색
 
