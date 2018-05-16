@@ -4,6 +4,7 @@
 ## 함수
 * 명사: (사람・사물의) 기능
 * 동사: (제대로) 기능하다[작용하다]
+
 ![function](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/500px-Function_machine2.svg.png)
 
 
