@@ -19,7 +19,7 @@ console.log( findKim(["Lee", "Park", "Kim"]));
 // Kim 2번 째 있다.
 ```
 
-## 문제
+## 문제 2
 ```javascript
 // javascript를 활용해서 입력받은 문자를 역순으로 반환하는 함수를 만들어라.
 
@@ -34,7 +34,7 @@ console.log(reverse('hello'));
 // olleh
 ```
 
-## 문제
+## 문제 3
 
 ```javascript
 // 첫 번째와 마지막 글자를 제외하고 출력하시오.
