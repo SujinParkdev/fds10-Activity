@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+    }
+
+    body {
+      background: #fff;
+      margin: 10px;
+      font-size: .75em;
+    }
+
+    .header {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 2px solid #ccc;
+    }
+
+    .container {
+      border: 2px solid #ccc;
+      background: #fff;
+    }
+
+    .left {
+      float: left;
+      width: 40%;
+      padding: 10px;
+      border: 1px solid #181818;
+      background: yellowgreen;
+    }
+
+    .right {
+      float: right;
+      width: 40%;
+      padding: 10px;
+      border: 1px solid #181818;
+      background: yellowgreen;
+    }
+
+    .footer {
+      margin-top: 10px;
+      padding: 10px;
+      border: 2px solid #ccc;
+    }
+
+    /* 웹관련 용어 */
+
+    .term{
+      background: linear-gradient(to bottom, #eee, #ccc);
+      background-color: #ccc;
+      margin-top: 20px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      padding: 10px 15px 10px 15px;
+      width: 250px;
+    }
+
+    .term-heading{
+      font-size: 1.5rem;
+    }
+
+    .term-list{
+      margin: 10px 0 0;
+    }
+
+    .term-list-subject{
+      color: #296897;
+    }
+
+    .term-list-subject, .term-list-brief{
+      width: 145px;
+    }
+
+    .term-list-thumbnail{
+      margin: 0;
+    }
+
+    .term-list-thumbnail img{
+      display: block;
+    }
+
+    .term-list-brief{
+      margin: 0;
+      margin-top: 5px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <p>header</p>
+  </div>
+  <div class="container">
+    <div class="left">
+      <p>
+        <strong>left</strong>
+      </p>
+    </div>
+    <div class="right">
+      <p>
+        <strong>right</strong>
+      </p>
+    </div>
+  </div>
+  <div class="footer">
+    <p>footer</p>
+  </div>
+
+  <!-- 웹관련 용어 -->
+  <section class="term">
+    <h2 class="term-heading">웹 관련 용어</h2>
+    <dl class="term-list">
+      <dt class="term-list-subject">웹 표준 이란?</dt>
+      <dd class="term-list-thumbnail">
+        <img src="../img/web_standards.gif" alt="웹표준 관련 기구인 W3C의 새로운 로고">
+      </dd>
+      <dd class="term-list-brief">
+        W3C 단체에서 규정한 웹 기술 사양에 대한 규칙을 말하며 표준 규격은...
+      </dd>
+    </dl>
+  </section>
+</body>
+</html>
